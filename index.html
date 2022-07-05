@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Clase 14 Parcial 2</title>
+      <link rel="stylesheet" href="/login/assets/styles.css">
+      <link rel="stylesheet" href="/assetsGeneral/reset.css">
+      <link rel="stylesheet" href="/assetsGeneral/stylesGeneral.css">
+      <script src="app.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>Parcial 2 - Login</h1>
+    </header>
+    <main>
+      <div class="formContainer">
+      <h2 id="formTitle">Form:</h2>
+      <form class="form" id="myform">
+          <div class="inputContainer ic1">
+            <label for="email">Email</label>
+            <input class="input" type="text" id="email" name="email">
+            <p id="em_email" class="hiddenError">Must have email format: 'name@mail.com'</p>
+          </div>
+          <div class="inputContainer ic2">
+            <label for="password">Password</label>
+            <input class="input" type="text" id="password" name="password">
+            <p id="em_password" class="hiddenError">Minimum 7 letters</p>
+          </div>
+
+          <button type="button" id="btn">Login</button>
+      </form>
+      
+      <!-- The Modal -->
+      <div id="myModal" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p>Email and or password are not correct</p>
+        </div>
+      </div>
+    </div>
+    </main>
+    
+    <footer>
+      <p>LPPA - Parcial 2</p>
+      <p>Florencia Nardi</p>
+    </footer>
+  </body>
+  </html>

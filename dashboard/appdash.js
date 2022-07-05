@@ -3,7 +3,7 @@ window.onload = function(){
     const buttonLogout = document.getElementById('btnLogout');
     buttonLogout.onclick = function(){
         localStorage.clear();
-        window.location.href='/login/index.html';
+        window.location.href='/index.html';
     }
 
     //MODAL SETUP
