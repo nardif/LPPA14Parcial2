@@ -4,9 +4,9 @@
 
 This application provides access with email: valeria@gmail.com and password: lppa2022 to a dashboard with data fetched from an api.
 It is developed with HTML, CSS and JS.
-Link to Github Pages:
+Link to Github Pages: https://nardif.github.io/LPPA14Parcial2/
 
-###Original assignment:
+### Original assignment:
 Consigna:
 Crear una aplicación web utilizando solo HTML, CSS y Javascript. La misma deberá contar con 2 páginas:
 - Página de login (Inicio de sesión).
